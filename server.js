@@ -99,7 +99,7 @@ app.get("/status-info", (req, res) => {
 });
 
 // Set the port and start the server
-const PORT = 3001;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Status Code API is running on http://localhost:${PORT}`);
 });
